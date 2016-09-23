@@ -112,6 +112,8 @@ function from_filename(filename, parent, opt, cb) {
 
     var cache = opt.cache;
 
+    opt.filename = filename;
+
     // wtf is this cache?
     // appears to be the list of dependencies for this filename
     // what it really should be is the info
